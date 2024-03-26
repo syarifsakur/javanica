@@ -1,0 +1,379 @@
+body{
+    margin:0;
+    padding:0;
+}
+
+header{
+    position:fixed;
+    width:100%;
+    margin:0;
+    background-color:#072243;
+    height:75px;
+    top:0;
+    bottom:0;
+        box-shadow:0 0 10px 0 black;
+}
+nav{
+    display:flex;
+    justify-content:space-between;
+    margin:0 30px;
+    color:#ffffff;
+    font-size:24px;
+    font-weight: bold;
+    font-family:"poppins",sans-serif;
+}
+
+nav .logo{
+    display:flex;
+    justify-content:center;
+}
+
+nav .logo h3{
+    margin-left:10px;
+    margin-top:20px;
+    height:75px;
+}
+
+nav .nav-hal-beranda ul{
+    display:flex;
+    flex-direction:row;
+    text-style:poppins;
+}
+
+nav .nav-hal-beranda ul li{
+    list-style:none;
+    margin:0 20px;
+}
+
+nav .nav-hal-beranda ul li a{
+    color:#ffffff;
+    text-decoration:none;
+
+}
+nav .nav-hal-beranda ul li .click{
+    border-bottom:2px solid #ffffff;
+    color:#ffffff
+}
+
+
+.content-1{
+    margin:90px 40px 0 30px;
+    border-radius:10px;
+    background-image:url("img.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height:400px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+}
+
+.content-1 h3{
+    color:#ffffff;
+    font-size:35px;
+    font-weight:bold;
+    font-family:"poppins",sans-serif;
+    margin:20px 100px;
+    text-align:center;
+}
+
+.content-1 button{
+    border:2px solid transparent;
+    border-radius:10px;
+    width:150px;
+    height:40px;
+    margin-top:50px;
+    background-color:#072243;
+}
+
+.content-1 button a{
+    text-decoration:none;
+    color:#ffffff;
+    font-weight:bold;
+}
+
+.loading-dots {
+    margin-top:15px;
+  text-align: center;
+}
+
+.dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #DFE2E6;
+}
+.dots {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #000;
+}
+
+.content-2{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin:0 20px;
+}
+
+.content-2 .content-2-2 h3{
+    color:#091E42;
+    margin-top:-150px;
+    font-size:50px;
+    font-weight:bold;
+    font-family:"poppins",sans-serif;
+}
+
+.content-2 button{
+    border:2px solid transparent;
+    border-radius:10px;
+    width:250px;
+    height:60px;
+    margin-top:50px;
+    background-color:#072243;
+}
+.content-2 button a{
+    text-decoration:none;
+    color:#ffffff;
+    font-size:24px;
+    font-weight:bold;
+}
+
+footer{
+    color:#ffffff;
+    background-color:#072243;
+    position:static;
+    bottom:0;
+    width:100%;
+    height:100px;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+        font-family:"poppins",sans-serif;
+}
+
+footer .footer-2{
+    display:flex;
+    margin-right:400px;
+}
+
+footer .footer-2 p{
+    margin-right:40px;
+}
+
+footer .footer-3 a{
+    color:#ffffff;
+    margin:0 5px;
+}
+
+.sempil{
+    text-align:center;
+    color:#091E42;
+    font-size:20px;
+    font-weight:bold;
+    font-family:"poppins",sans-serif;
+}
+
+.content-3{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    margin:0 30px;
+}
+
+.content-3 .kotak{
+    width: 200px;
+    height: 120px;
+}
+
+.content-3 .content-3-1 .kotak{
+    margin:0px 80px;
+    
+}
+.content-3 .content-3-1 .kotak .kotak-1{
+    height:100%;
+    width:100%;
+    border-radius:10px;
+    background-color:#F5F6F7;
+    text-align:center;
+    padding-top:20px;
+         box-shadow:0 2px 4px black;
+}
+.content-3 .content-3-1 .kotak .kotak-1 p{
+    font-size:16px;
+    font-weight:bold;
+}
+.content-3 .content-3-1 .kotak .kotak-2 p{
+    font-size:16px;
+    font-weight:bold;
+}
+.content-3 .content-3-2 .kotak .kotak-1 p{
+    font-size:16px;
+    font-weight:bold;
+}
+.content-3 .content-3-2 .kotak .kotak-2 p{
+    font-size:16px;
+    font-weight:bold;
+}
+.content-3 .content-3-1 .kotak .kotak-2{
+    height:100%;
+    width:100%;
+    margin-top:80px;
+    margin-left:50px;
+    border-radius:10px;
+    background-color:#F5F6F7;
+        text-align:center;
+    padding-top:20px;
+             box-shadow:0 2px 4px black;
+    
+}
+
+.content-3 .content-3-2 .kotak{
+    margin:0px -50px;
+}
+.content-3 .content-3-2 .kotak .kotak-1{
+    height:100%;
+    width:100%;
+    margin-top:70px;
+    border-radius:10px;
+    background-color:#F5F6F7;
+            text-align:center;
+    padding-top:20px;
+             box-shadow:0 2px 4px black;
+}
+
+.content-3 .content-3-2 .kotak .kotak-2{
+    height:100%;
+    width:100%;
+    margin-top:80px;
+    margin-left:50px;
+    border-radius:10px;
+    background-color:#F5F6F7;
+            text-align:center;
+    padding-top:20px;
+             box-shadow:0 2px 4px black;
+}
+
+.content-3 .content-3-3{
+    margin-left:150px;
+}
+.content-3 .content-3-3 p{
+    font-size:30px;
+    font-family:"poppins",sans-serif;
+    font-weight:reguler;
+}
+
+.content-3 .content-3-3 button{
+    border:2px solid transparent;
+    border-radius:10px;
+    width:200px;
+    height:50px;
+    background-color:#072243;
+    margin-left:30%;
+    margin-top:50px;
+}
+
+.content-3 .content-3-3 button a{
+    text-decoration:none;
+    color:#ffffff;
+    font-size:20px;
+}
+
+.content-4{
+    margin:100px 0px;
+    padding:1px 0;
+    width:100%;
+    height:300px;
+    background: linear-gradient(to right, #071043, #BB000B);
+}
+
+.content-4 .sempil-2 h1{
+    font-size:40px;
+    font-weight:bold;
+    color:#fff;
+    font-family:"poppins",sans-serif;
+    text-align:center;
+}
+
+.content-4 .content-4-1{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.content-4 .content-4-1 .kotak{
+    margin-top:-10px;
+    height:150px;
+    width:300px;
+    border-radius:10px;
+    background-color:#fff;
+    margin-left:20px;
+    maegin-right:20px;
+}
+
+.content-4 .content-4-1 .kotak p{
+    margin:10px 20px;
+    color:#091E42;
+    font-family:"poppins",sans-serif;
+}
+.content-4 .content-4-1 .kotak .profil{
+    display:flex;
+    justify-content:center;
+    margin-left:-20px;:
+}
+
+.content-4 .content-4-1 .kotak .profil img{
+    height:40px;
+    margin-top:13px;
+    margin-right:10px;
+}
+.content-4 .content-4-1 .kotak .profil h1{
+    color:#091E42;
+    font-family:"poppins",sans-serif;
+    font-weight:bold;
+}
+
+.jadwal{
+    margin:110px 30px 50px 30px;;
+    border:2px solid transparent;
+    border-radius:10px;
+    box-shadow:0 2px 4px black;
+}
+
+.jadwal h1{
+    text-align:center;
+    font-size:40px;
+    font-weight:bold;
+    font-family:"poppins",sans-serif;
+    color:#091E42;
+}
+
+ table {
+      border-collapse: collapse;
+      width: 80%;
+      margin:20px 120px 100px 120px;
+    }
+    
+    th, td {
+      border: 1px solid black;
+      padding: 8px;
+      text-align: center;
+      font-size:20px;
+      font-family:"poppins",sans-serif;
+    }
+
+.map{
+    margin:120px 30px 50px 30px;
+    text-align:center;
+}
+.map iframe{
+    width:80%;
+}
+.map a{
+    text-decoration:none;
+    
+}
