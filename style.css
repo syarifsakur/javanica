@@ -316,6 +316,7 @@ footer .footer-3 a{
 
 .content-4 .content-4-1 .kotak p{
     margin:10px 20px;
+    height: 80px;
     color:#091E42;
     font-family:"poppins",sans-serif;
 }
@@ -327,13 +328,14 @@ footer .footer-3 a{
 
 .content-4 .content-4-1 .kotak .profil img{
     height:40px;
-    margin-top:13px;
+    margin-top:7px;
     margin-right:10px;
 }
 .content-4 .content-4-1 .kotak .profil h1{
     color:#091E42;
     font-family:"poppins",sans-serif;
     font-weight:bold;
+    margin-top:5%;
 }
 
 .jadwal{
