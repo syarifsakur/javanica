@@ -38,7 +38,7 @@ nav .logo h3{
 nav .nav-hal-beranda ul{
     display:flex;
     flex-direction:row;
-    text-style:poppins;
+    font-family: "poppins",sans-serif;
 }
 
 nav .nav-hal-beranda ul li{
